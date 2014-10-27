@@ -1,0 +1,37 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    color: #B31B1B;
+}
+
+#playerstarting
+{
+    height: 260px;
+    width: 200px;
+    overflow: auto;
+    border: solid 2px black;
+    margin-bottom: 20px;
+    float:left;
+    margin:10px;
+}
+
+#playerbench
+{
+    height: 360px;
+    width: 200px;
+    overflow: auto;
+    border: solid 2px black;
+    margin-bottom: 20px;
+    float:left;
+    margin:10px;
+}
+
+#playerstarting > DIV, #playerbench > DIV
+{
+height: 40px;
+border: solid 1px #B31B1B;
+text-align: right;
+font-weight: bold;
+background: url('http://i.imgur.com/ewwiAMR.png') no-repeat;
+padding-top: 10px;
+padding-right: 10px;
+}
